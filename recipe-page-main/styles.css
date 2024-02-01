@@ -1,0 +1,100 @@
+   .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Young+Serif&display=swap');
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.base
+{
+    background-color: white;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 30px;
+}
+body
+{
+    background-color: #fae9d9;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #363534;
+}
+img{
+    width: 100%;
+    border-radius: 50px;
+}
+.image{
+    padding-left: 50px;
+}
+h1
+{
+    font-family: 'Young Serif', Serif;
+    font-weight: 30000;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.dis
+{
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.prep
+{
+    background-color: #fcf2fb;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-radius: 15px;
+}
+h3
+{
+    color: #732269;
+    padding-bottom: 20px;
+}
+
+.prep-list, .ingredient-list, ol {
+    list-style-position: inside;
+}
+.prep-list, .ingredient-list
+{
+    list-style: disc;
+    padding-left: 20px;
+}
+.prep-list li::marker
+{
+    color: #732269;
+}
+
+.ingredients, .instructions, .nutrition {
+    margin: 30px 0;
+}
+ul li
+{
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h2 {
+    color: #8c0601;
+    font-family: 'Young Serif', serif;
+    font-weight: 3000;
+    padding-bottom: 10px;
+    padding-top: 55px;
+}
+
+.ingredient-list li::marker {
+    color: #8c0601;
+}
+hr
+{
+    margin-top: 40px;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
